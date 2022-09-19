@@ -36,13 +36,15 @@ function App() {
               <span className="italics">Gladiator (2000)</span>
             </p>
             <p>
-              Go ahead and click Liam's Counter with all the fervour you can
-              muster, for Liam's Counter - despite the name - is for everyone.
+              Go ahead and leave your mark by clicking to add your count to
+              Liam's Counter. Do it with all the fervour you can muster, for
+              Liam's Counter - despite the name - is for everyone.
             </p>
             <p>
-              Every single click is eternal. Each of them shall be remembered
-              for all time, as if sewn into the very fabric of the universe
-              itself.
+              Every single click of this, the greatest iteration of Liam's
+              Counter the world has yet seen, is eternal. Each of them shall be
+              remembered for all time, as if sewn into the very fabric of the
+              universe itself.
             </p>
             <p className="subheading">Anyway this has been fun. Click away!</p>
           </div>
