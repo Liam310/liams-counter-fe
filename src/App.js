@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import { fetchCounterById, updateCounterById } from './api';
+import Loading from './Loading';
 
 function App() {
   const [counter, setCounter] = useState({});
@@ -24,7 +25,7 @@ function App() {
   return (
     <div className="App">
       {isLoading ? (
-        <p>Loading...</p>
+        <Loading />
       ) : (
         <div className="main-container">
           <h1 className="title">{counter_name}</h1>

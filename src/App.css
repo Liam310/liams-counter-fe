@@ -21,6 +21,16 @@
   align-items: center;
 }
 
+.loading {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: left;
+  /* magic number of px to fit 3 dots */
+  min-width: 125px;
+  color: var(--purple);
+  margin: 30px;
+}
+
 .title {
   color: var(--purple);
   margin: 10px;
