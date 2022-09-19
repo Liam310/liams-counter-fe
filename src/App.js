@@ -29,8 +29,9 @@ function App() {
         <div className="main-container">
           <h1 className="title">{counter_name}</h1>
           <div className="content">
-            <p>
-              "What we do in life echoes in eternity." - Marcus Aurelius,{' '}
+            <p className="quote">
+              "What we do in life echoes in eternity."
+              <br /> - Marcus Aurelius,{' '}
               <span className="italics">Gladiator (2000)</span>
             </p>
             <p>
